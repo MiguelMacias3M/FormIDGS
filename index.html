@@ -13,6 +13,8 @@
             <form action="">
                 <input type="text" name="user" id="user" placeholder="User"><br><br>
                 <input type="password" name="password" id="password" placeholder="Password"><br><br>
+                <div class="g-recaptcha" data-sitekey="6LevpBopAAAAAOxAJShqtQT-17eOl3wFmZpl3W2R"
+                data-callback="correctCaptcha"></div>
                 <button type="button" class="btn btn-success" onclick="validar()">Login</button>
             </form>
         </div>
@@ -20,4 +22,5 @@
    </div>
 </body>
 <script src="index.js"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
 </html>
