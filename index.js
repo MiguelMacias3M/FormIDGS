@@ -9,7 +9,7 @@ function validar(){
     
 }
 
-function correctCapthca(){
+function correctCaptcha(){
     console.log("Captcha resuelto")
     bandera=true;
 }
