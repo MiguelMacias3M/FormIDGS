@@ -1,8 +1,15 @@
-
+var bandera = false;
 
 function validar(){
-    var usuario = document.getElementById("user").value;
-    var password = document.getElementById("password").value;
-    alert(usuario);
-    alert(password);
+    if (bandera){
+
+        console.log("Validacion correcta")
+        //Reedirecciona a la pagina correspondiente
+    }
+    
+}
+
+function correctCapthca(){
+    console.log("Captcha resuelto")
+    bandera=true;
 }
